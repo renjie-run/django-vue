@@ -2,11 +2,10 @@
   "name": "frontend",
   "version": "1.0.0",
   "private": true,
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "frontend with vue.",
   "scripts": {
     "dev": "webpack serve --config ./config/webpack.config.dev.js",
-    "build": "webpack --config ./config/webpack.config.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config ./config/webpack.config.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +14,6 @@
     "@babel/cli": "^7.16.7",
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
-    "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.5.1",
