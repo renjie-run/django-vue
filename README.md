@@ -1,1 +1,1 @@
-# django-vue
+# django-react
